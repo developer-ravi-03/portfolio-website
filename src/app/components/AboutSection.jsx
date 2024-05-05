@@ -13,6 +13,8 @@ const TAB_DATA = [
         <li>Express</li>
         <li>React.js</li>
         <li>JavaScript</li>
+        <li>C/C++</li>
+        <li>Python</li>
         <li>Bootstrap</li>
       </ul>
     )
@@ -22,9 +24,17 @@ const TAB_DATA = [
     id : "education",
     content : (
       <ul className='list-disc pl-2'>
-        <li>Diploma</li>
+        <li><b>Diploma in Computer Science and Engineering</b></li>
         <li>From Government Polytechnic Purnea</li>
+        <li>Marks Obtain :- 8.5 CGPA</li>
+        <li className='mb-3'>Session :- 2020 to 2023</li>
+
+        <li><b>Matriculation</b></li>
+        <li>From Gokhul Bhagat High School Bhatgama</li>
+        <li>Marks Obtain :- 78%</li>
+        <li className='mb-3'>Session :- 2019 to 2020</li>
       </ul>
+      
     )
   },
   {
@@ -51,7 +61,7 @@ const AboutSection = () => {
 
 
   return (
-    <section className='bg-white text-black mt-2 rounded-xl'>
+    <section className='bg-white text-black mt-2 rounded-xl' id='about'>
         <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:py-16'>
             <Image src="/images/about-image.png" width={500} height={500} alt='About Image' />
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>

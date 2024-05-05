@@ -31,7 +31,7 @@ const CertificatesSection = () => {
 
 
     return (
-        <section className='bg-[#181818] text-whitw mt-2 rounded-xl'>
+        <section className='bg-[#181818] text-whitw mt-2 rounded-xl' id='certificates'>
             <h2 className="text-center text-4xl font-bold text-white mt-4 mb-6 md:mb-6 underline underline-offset-4 ">
                 My Certificates
             </h2>
