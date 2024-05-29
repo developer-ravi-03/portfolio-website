@@ -17,6 +17,8 @@ const TAB_DATA = [
         <li>C/C++</li>
         <li>Python</li>
         <li>Bootstrap</li>
+        <li>Bootstrap</li>
+        <li>Bootstrap</li>
       </ul>
     )
   },
