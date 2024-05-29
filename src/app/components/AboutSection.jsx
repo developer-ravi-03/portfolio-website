@@ -12,6 +12,7 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>React.js</li>
+        <li>Next.js</li>
         <li>JavaScript</li>
         <li>C/C++</li>
         <li>Python</li>
