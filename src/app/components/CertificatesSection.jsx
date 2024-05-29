@@ -9,25 +9,22 @@ import { images } from "./CertificateList";
 const CertificatesSection = () => {
     const [activeImage, setActiveImage] = useState(0);
 
-    const clickNext = () => {
-        activeImage === images.length - 1
-            ? setActiveImage(0)
-            : setActiveImage(activeImage + 1);
-    };
-    const clickPrev = () => {
-        activeImage === 0
-            ? setActiveImage(images.length - 1)
-            : setActiveImage(activeImage - 1);
-    };
+  const clickNext = () => {
+    setActiveImage((prevActiveImage) =>
+      prevActiveImage === images.length - 1 ? 0 : prevActiveImage + 1
+    );
+  };
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            clickNext();
-        }, 5000);
-        return () => {
-            clearTimeout(timer);
-        };
-    }, [activeImage]);
+  const clickPrev = () => {
+    setActiveImage((prevActiveImage) =>
+      prevActiveImage === 0 ? images.length - 1 : prevActiveImage - 1
+    );
+  };
+
+  useEffect(() => {
+    const timer = setTimeout(clickNext, 5000);
+    return () => clearTimeout(timer);
+  }, [activeImage]);
 
 
     return (
