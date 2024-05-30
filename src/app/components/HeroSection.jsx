@@ -5,6 +5,16 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 const HeroSection = () => {
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:ravibseb96@gmail.com`;
+  };
+
+  const downloadCV = () => {
+    window.location.href = `/resume/Ravi-Resume.pdf`;
+  };
+  
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -17,8 +27,8 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Ravi',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                'Ravi kumar',
+                1000, 
                 'Web Developer',
                 1000,
                 'UI/UX Designer',
@@ -32,13 +42,16 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-            Lorem ipsum dolor sit amet, consectetur elit. Esse earum hic perspiciatis ratione, cumque iste. Quo sed iste autem beatae recusandae corrupti maxime quam numquam.
+            I am an enthusiastic and tech savvy individual ready to embark on a journey to apply my knowledge, adapt to emerging technologies, and contribute to innovative solutions in the ever evolving world of Computer Science.
           </p>
           <div>
-            <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondry-500 hover:bg-slate-200 text-white hover:text-[#181818]'>
+            <button type='button' onClick={handleEmailClick} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondry-500 hover:bg-slate-200 text-white hover:text-[#181818]'>
               Hire Me
             </button>
-            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondry-500 hover:bg-slate-800 text-white  mt-3'>
+            <button 
+              type='button'
+              onClick={downloadCV}
+              className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondry-500 hover:bg-slate-800 text-white  mt-3'>
               <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
             </button>
           </div>

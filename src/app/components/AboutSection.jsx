@@ -43,8 +43,8 @@ const TAB_DATA = [
     id : "experience",
     content : (
       <ul className='list-disc pl-2'>
-        <li>Fresher</li>
-        <li>From Government Polytechnic Purnea</li>
+        <li><b>Fresher</b></li>
+        <li>Thought I may not have work experience yet, I&apos;m a quick learner with a proactive attitude. I&apos;m passionate about Full Stack Web Development.</li>
       </ul>
     )
   }
@@ -69,11 +69,11 @@ const AboutSection = () => {
                 <h2 className='text-4xl font-bold text-black mb-4 mt-5'>About Me</h2>
                 <p className='text-base lg:text-lg '>
                     I am a full stack web developer with a passion
-                    for creating intractive design Lorem ipsum dolor 
-                    sit, amet consectetur adipisicing elit. Commodi 
-                    asperiores laudantium adipisci facilis odit, alias 
-                    ipsa error recusandae accusantium, aut consequuntur, 
-                    est temporibus soluta?
+                    for creating intractive design. I&apos;m highly motivated recent completed diploma from 
+                    Government Polytechnic Purnea with a strong foundation in Computer Science and Engineering
+                    eager to launch my career in Web Development Field. Thought I may not have work experience yet, I&apos;m a 
+                    quick learner with a proactive attitude. I&apos;m passionate about Full Stack Web Development.
+
                 </p>
                 
                 <div className='flex flex-row justify-start mt-8'>

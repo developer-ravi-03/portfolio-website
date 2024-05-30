@@ -9,24 +9,24 @@ export const images = [
       id: 2,
       src: "/images/certificates/2.jpg",
       title: "Core Python",
-      desc: "A cappuccino is an espresso-based coffee drink that is traditionally prepared with steamed milk foam (microfoam). Cappuccino. Type, Hot.",
+      desc: "This certificate is certify for completing the course of Core Python. This course is completed in 4 week summer Internship program By Hypex Technology PVT. LTD.",
     },
     {
       id: 3,
       src: "/images/certificates/3.jpg",
       title: "C Programming and Assembly Language",
-      desc: "Espresso is a concentrated form of coffee, served in shots. It's made of two ingredients - finely ground, 100% coffee, and hot water.",
+      desc: "This certificate is certify for completing the course of C Programming and Assembly Language. This course is completed from NPTEL.",
     },
     {
       id: 4,
       src: "/images/certificates/4.jpg",
       title: "Salesforce Developer",
-      desc: "A latte or caffè latte is a milk coffee that boasts a silky layer of foam as a real highlight to the drink. A true latte will be made up of one or two shots of espresso, steamed milk and a final, thin layer of frothed milk on top",
+      desc: "This certificate is certify for completing the course of Salesforce Developer.This course is provided by Salesforce."
     },
     {
       id: 5,
       src: "/images/certificates/5.jpg",
       title: "Web Design",
-      desc: "Caffè macchiato, sometimes called espresso macchiato, is an espresso coffee drink with a small amount of milk, usually foamed. ",
+      desc: "This certificate is certify for completing the course of Web Design.This course is completed in 6 week summer Internship program By Apexza Infotech PVT. LTD. ",
     },
   ];
