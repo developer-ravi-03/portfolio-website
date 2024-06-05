@@ -13,6 +13,9 @@ const TAB_DATA = [
         <li>Express</li>
         <li>React.js</li>
         <li>Next.js</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
         <li>JavaScript</li>
         <li>C/C++</li>
         <li>Python</li>
